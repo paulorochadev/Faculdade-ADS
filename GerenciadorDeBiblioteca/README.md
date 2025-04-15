@@ -1,7 +1,9 @@
 # 📚 Gerenciador de Biblioteca em C
 
 ![C][c_image] ![Status][status_image]
-Projeto desenvolvido na disciplina **Prática Profissional: Ferramentas e Técnicas de Programação** do curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
+
+- Projeto desenvolvido na disciplina **Prática Profissional: Ferramentas e Técnicas de Programação**
+- Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
 
 ## :computer: Sobre o projeto
 
@@ -23,29 +25,26 @@ Sistema de gerenciamento de Livros com persistência em arquivo texto, desenvolv
 ## 🛠 Funcionalidades
 
 ### Implementadas
-- :white_check_mark: **Persistência em Arquivo**  
-  Carrega/Salva automaticamente em `biblioteca.txt`
-- :white_check_mark: **CRUD Completo**  
-  - `criarLivro()` - Adiciona novos registros
-  - `listarLivros()` - Exibe todos registros cadastrados
-  - `buscarLivro()` - Localiza registro por ID
-  - `editarLivro()` - Modifica dados de registros existentes
-  - `deletarLivro()` - Remove registros
-- :white_check_mark: **Tratamento Básico de Erros**  
-  Validação de opções inválidas no menu
+**Persistência em Arquivo**:
+- :white_check_mark: Carrega/Salva automaticamente em `biblioteca.txt`
 
-  ### Em Desenvolvimento
-- :white_square_button: Implementação completa das funções CRUD
-- :white_square_button: Validação avançada de dados
-- :white_square_button: Sistema de empréstimos de livros
+**Tratamento Básico de Erros**:
+- :white_check_mark: Validação de opções inválidas no menu
+
+### Em Desenvolvimento
+**CRUD Completo**:
+- :white_square_button: `criarLivro()` - Adiciona novos registros
+- :white_square_button: `listarLivros()` - Exibe todos registros cadastrados
+- :white_square_button: `buscarLivro()` - Localiza registro por ID
+- :white_square_button: `editarLivro()` - Modifica dados de registros existentes
+- :white_square_button: `deletarLivro()` - Remove registros
 
 ## :art: Layout
 
-Menu Principal:
-*Interface do sistema em execução*
+Menu Principal (*Interface do sistema em execução*)
 
-![alt text](https://github.com/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/MenuPrincipal.jpeg?raw=true)
-![alt text](https://github.com/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/MenuPrincipal2.jpeg?raw=true)
+![alt text][menu_image]
+![alt text][menu_image2]
 
 ## :open_file_folder: Como executar o projeto
 
@@ -68,10 +67,12 @@ Exemplo: [GDB Online][gdb_online_site]
 
 ```
 
-:rocket: Tecnologias
+## :rocket: Tecnologias
+
 - [C][c]
 
-:scroll: Licença
+## :scroll: Licença
+
 Este projeto foi publicado em 2025 sob a licença [MIT](./LICENSE).
 
 -------------
@@ -82,6 +83,8 @@ Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
 [c_image]: https://img.shields.io/badge/C-17%2B-blue
 [status_image]: https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow
+[menu_image]: https://github.com/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal.jpeg?raw=true
+[menu_image2]: https://github.com/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal2.jpeg?raw=true
 
 [c]: https://www.c-language.org/
 [gdb_online_site]: https://www.onlinegdb.com/
