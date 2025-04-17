@@ -13,15 +13,15 @@ Este repositório serve como portfólio acadêmico, contendo todos os trabalhos,
 
 ## :pushpin: Projetos Destacados
 
-- 🧮 Operações Matemáticas em C
-- 📚 Gerenciador de Biblioteca em C
-- 📊 Cálculo de Média com Ponteiros em C
+- [🧮 Operações Matemáticas em C][[operacoes_matematicas_c]]
+- [📚 Gerenciador de Biblioteca em C][gerenciador_biblioteca_c]
+- [📊 Cálculo de Média com Ponteiros em C][calculo_media_ponteiros_c]
 
 ## :mortar_board: Disciplinas Incluídas
 
-- LOGICA DE PROGRAMACAO
-- PRATICA PROFISSIONAL - FERRAMENTAS E TECNICAS DE PROGRAMACAO
-- PROGRAMAÇÃO DE COMPUTADORES
+- Lógica de Programação
+- Prática Profissional - Ferramentas e Técnicas de Programação
+- Programação de Computadores
 
 ## :rocket: Tecnologias Utilizadas
 
@@ -54,6 +54,10 @@ Este repositório foi publicado em 2025 sob a licença [MIT](./LICENSE).
 Desenvolvido com :green_heart: por [**Paulo Roberto Rocha**][linkdin_eu].
 
 Gostou? Deixe uma estrelinha para ajudar o projeto :star:
+
+[operacoes_matematicas_c]: https://github.com/paulorochadev/Faculdade-ADS/tree/main/OperacoesMatematicas
+[gerenciador_biblioteca_c]: https://github.com/paulorochadev/Faculdade-ADS/tree/main/GerenciadorDeBiblioteca
+[calculo_media_ponteiros_c]: https://github.com/paulorochadev/Faculdade-ADS/tree/main/CalculoMediaArray
 
 [c]: https://www.c-language.org/
 [gdb_online_site]: https://www.onlinegdb.com/
