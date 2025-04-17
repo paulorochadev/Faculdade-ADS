@@ -13,7 +13,7 @@ Este repositório serve como portfólio acadêmico, contendo todos os trabalhos,
 
 ## :pushpin: Projetos Destacados
 
-- [🧮 Operações Matemáticas em C][[operacoes_matematicas_c]]
+- [🧮 Operações Matemáticas em C][operacoes_matematicas_c]
 - [📚 Gerenciador de Biblioteca em C][gerenciador_biblioteca_c]
 - [📊 Cálculo de Média com Ponteiros em C][calculo_media_ponteiros_c]
 
