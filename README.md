@@ -4,7 +4,7 @@
 - Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
 <!-- - Organizado por disciplinas e tipos de projetos -->
 
-## :books: Sobre este Repositório
+## :file_cabinet: Sobre este Repositório
 
 Este repositório serve como portfólio acadêmico, contendo todos os trabalhos, exercícios e projetos desenvolvidos durante a graduação.
 <!-- Os projetos estão organizados em pastas por disciplina ou tipo de atividade. -->
@@ -13,8 +13,8 @@ Este repositório serve como portfólio acadêmico, contendo todos os trabalhos,
 
 ## :pushpin: Projetos Destacados
 
-- 📚 Gerenciador de Biblioteca em C
 - 🧮 Operações Matemáticas em C
+- 📚 Gerenciador de Biblioteca em C
 
 ## :mortar_board: Disciplinas Incluídas
 
@@ -26,7 +26,7 @@ Este repositório serve como portfólio acadêmico, contendo todos os trabalhos,
 
 Diversas tecnologias são aplicadas nos projetos conforme a disciplina:
 
-- Linguagens:
+Linguagens:
 - [C][c]
 
 ## :open_file_folder: Como Navegar
