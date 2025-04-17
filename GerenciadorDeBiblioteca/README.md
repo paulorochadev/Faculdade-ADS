@@ -1,9 +1,8 @@
 # 📚 Gerenciador de Biblioteca em C
 
-<!-- ![C][c_image] ![Status][status_image] -->
-
 - Projeto desenvolvido na disciplina **Prática Profissional: Ferramentas e Técnicas de Programação**
 - Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
+- Atividade Avaliativa da Unidade 3
 
 ## :computer: Sobre o projeto
 
@@ -50,22 +49,17 @@ Menu Principal (*Interface do sistema em execução*)
 
 ```bash
 
-# Clone o repositório
-$ git clone https://github.com/paulorochadev/gerenciador-biblioteca-c.git
+# Se quiser, pode fazer o Clone do repositório inteiro (Faculdade-ADS)
+$ git clone https://github.com/paulorochadev/Faculdade-ADS.git
 
 # Acesse a pasta do projeto
-$ cd gerenciador-biblioteca-c
+$ cd GerenciadorDeBiblioteca
 
-# Compile e execute (Linux/macOS)
-$ make run
-
-# Manualmente:
-$ gcc src/*.c -o biblioteca && ./biblioteca
-
-# Ou use um Compilador Online (copie e cole o Código):
-Exemplo: [GDB Online][gdb_online_site]
+# Para facilitar, use um Compilador Online (copie e cole o Código)
 
 ```
+Exemplo: [GDB Online][gdb_online_site]
+
 
 ## :rocket: Tecnologias
 
@@ -81,8 +75,6 @@ Desenvolvido com :green_heart: por [**Paulo Roberto Rocha**][linkdin_eu].
 
 Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
-<!-- [c_image]: https://img.shields.io/badge/C-17%2B-blue
-[status_image]: https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow -->
 [menu_image]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal.jpeg?raw=true
 [menu_image2]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal2.jpeg?raw=true
 
