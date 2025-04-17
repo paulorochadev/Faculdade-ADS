@@ -2,7 +2,7 @@
 
 - Projeto desenvolvido na disciplina **Lógica de Programação**
 - Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
-- Atividade Avaliativa da Unidade 3
+- Atividade Avaliativa da Unidade 3 - Tarefa
 
 ## :computer: Sobre o projeto
 
