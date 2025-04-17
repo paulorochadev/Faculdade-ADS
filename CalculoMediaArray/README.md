@@ -1,4 +1,4 @@
-# 📊 Calculadora de Média com Ponteiros em C
+# 📊 Cálculo de Média com Ponteiros em C
 
 - Projeto desenvolvido na disciplina **Programação de Computadores**
 - Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
