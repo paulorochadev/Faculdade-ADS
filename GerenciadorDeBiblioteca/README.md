@@ -1,6 +1,6 @@
 # 📚 Gerenciador de Biblioteca em C
 
-![C][c_image] ![Status][status_image]
+<!-- ![C][c_image] ![Status][status_image] -->
 
 - Projeto desenvolvido na disciplina **Prática Profissional: Ferramentas e Técnicas de Programação**
 - Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
@@ -81,8 +81,8 @@ Desenvolvido com :green_heart: por [**Paulo Roberto Rocha**][linkdin_eu].
 
 Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
-[c_image]: https://img.shields.io/badge/C-17%2B-blue
-[status_image]: https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow
+<!-- [c_image]: https://img.shields.io/badge/C-17%2B-blue
+[status_image]: https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow -->
 [menu_image]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal.jpeg?raw=true
 [menu_image2]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal2.jpeg?raw=true
 
