@@ -2,7 +2,7 @@
 
 - Projeto desenvolvido na disciplina **Prática Profissional: Ferramentas e Técnicas de Programação**
 - Curso de **Análise e Desenvolvimento de Sistemas** na [USF][usf_site].
-- Atividade Avaliativa da Unidade 3
+- Tarefa Prática
 
 ## :computer: Sobre o projeto
 
