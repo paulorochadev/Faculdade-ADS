@@ -33,28 +33,21 @@ Programa em linguagem C que realiza operações matemáticas básicas e verifica
 Menu Principal (*Interface do sistema em execução*)
 
 ![alt text][menu_image]
-![alt text][menu_image2]
 
 ## :open_file_folder: Como executar o projeto
 
 ```bash
 
-# Clone o repositório
-$ git clone https://github.com/paulorochadev/gerenciador-biblioteca-c.git
+# Se quiser, pode fazer o Clone do repositório inteiro (Faculdade-ADS)
+$ git clone https://github.com/paulorochadev/Faculdade-ADS.git
 
 # Acesse a pasta do projeto
-$ cd gerenciador-biblioteca-c
+$ cd OperacoesMatematicas
 
-# Compile e execute (Linux/macOS)
-$ make run
-
-# Manualmente:
-$ gcc src/*.c -o biblioteca && ./biblioteca
-
-# Ou use um Compilador Online (copie e cole o Código):
-Exemplo: [GDB Online][gdb_online_site]
+# Para facilitar, use um Compilador Online (copie e cole o Código):
 
 ```
+Exemplo: [GDB Online][gdb_online_site]
 
 ## :rocket: Tecnologias
 
@@ -70,8 +63,7 @@ Desenvolvido com :green_heart: por [**Paulo Roberto Rocha**][linkdin_eu].
 
 Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
-[menu_image]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal.jpeg?raw=true
-[menu_image2]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal2.jpeg?raw=true
+[menu_image]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/OperacoesMatematicas/assets/OperacoesMatematicas.png?raw=true
 
 [c]: https://www.c-language.org/
 [gdb_online_site]: https://www.onlinegdb.com/
