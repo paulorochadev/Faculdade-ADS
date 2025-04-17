@@ -15,6 +15,7 @@ Este repositório serve como portfólio acadêmico, contendo todos os trabalhos,
 
 - 🧮 Operações Matemáticas em C
 - 📚 Gerenciador de Biblioteca em C
+- 📊 Cálculo de Média com Ponteiros em C
 
 ## :mortar_board: Disciplinas Incluídas
 
