@@ -168,7 +168,7 @@ void editarLivro() {
             salvarLivros();  // Salva os livros no arquivo
 
             printf("Livro editado com sucesso.\n");
-            
+
             return;
         }
     }
@@ -178,8 +178,29 @@ void editarLivro() {
 
 // Função para deletar um livro
 void deletarLivro() {
-    // Criar a Lógica
-    printf("Função/Método de Deletar um Livro\n");
+    int id;
+
+    printf("Digite o ID do livro: ");
+    scanf("%d", &id);
+
+    // Percorre o array de livros para encontrar o livro com o ID especificado
+    for (int i = 0; i < totalLivros; i++) {
+        if (livros[i].id == id) {
+            // Remove o livro deslocando os livros subsequentes uma posição para trás
+            for (int j = i; j < totalLivros - 1; j++) {
+                livros[j] = livros[j + 1];
+            }
+            totalLivros--;  // Decrementa o contador de livros
+
+            salvarLivros();  // Salva os livros no arquivo
+
+            printf("Livro deletado com sucesso.\n");
+            
+            return;
+        }
+    }
+
+    printf("Livro não encontrado.\n");  // Se o livro não for encontrado, exibe uma mensagem
 }
 
 // Função principal
