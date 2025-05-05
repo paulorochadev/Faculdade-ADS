@@ -136,8 +136,44 @@ void buscarLivro() {
 
 // Função para editar um livro existente
 void editarLivro() {
-    // Criar a Lógica
-    printf("Função/Método de Editar um Livro\n");
+    int id;
+
+    printf("Digite o ID do livro: ");
+    scanf("%d", &id);
+
+    // Percorre o array de livros para encontrar o livro com o ID especificado
+    for (int i = 0; i < totalLivros; i++) {
+        if (livros[i].id == id) {
+            // Solicita ao usuário os novos dados do livro
+            getchar();  // Consome o caractere de nova linha deixado pelo scanf
+            printf("Novo Titulo: ");
+            fgets(livros[i].titulo, 100, stdin);
+            livros[i].titulo[strcspn(livros[i].titulo, "\n")] = '\0';  // Remove a quebra de linha
+
+            printf("Novo Autor: ");
+            fgets(livros[i].autor, 100, stdin);
+            livros[i].autor[strcspn(livros[i].autor, "\n")] = '\0';  // Remove a quebra de linha
+
+            printf("Nova Data de Publicacao (DD/MM/AAAA): ");
+            fgets(livros[i].dataPublicacao, 11, stdin);
+            getchar();  // Consome a quebra de linha
+
+            printf("Novo Genero: ");
+            fgets(livros[i].genero, 50, stdin);
+            livros[i].genero[strcspn(livros[i].genero, "\n")] = '\0';  // Remove a quebra de linha
+
+            printf("Novo Numero de Copias: ");
+            scanf("%d", &livros[i].numCopias);
+
+            salvarLivros();  // Salva os livros no arquivo
+
+            printf("Livro editado com sucesso.\n");
+            
+            return;
+        }
+    }
+
+    printf("Livro não encontrado.\n");  // Se o livro não for encontrado, exibe uma mensagem
 }
 
 // Função para deletar um livro
