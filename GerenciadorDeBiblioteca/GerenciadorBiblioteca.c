@@ -21,6 +21,7 @@ int totalLivros = 0;       // Contador de quantos livros estão armazenados
 // Função para carregar os livros do arquivo para a memória
 void carregarLivros() {
     FILE *file = fopen(FILENAME, "r");  // Abre o arquivo para leitura
+
     if (file == NULL) return;  // Se o arquivo não existir, retorna sem fazer nada
 
     // Lê os livros do arquivo e armazena no array `livros`
@@ -40,6 +41,7 @@ void carregarLivros() {
 // Função para salvar os livros da memória no arquivo
 void salvarLivros() {
     FILE *file = fopen(FILENAME, "w");  // Abre o arquivo para escrita
+
     if (file == NULL) {
         printf("Erro ao abrir o arquivo para salvar.\n");
         return;
@@ -61,8 +63,43 @@ void salvarLivros() {
 
 // Função para criar um novo livro
 void criarLivro() {
-    // Criar a Lógica
-    printf("Função/Método de Criar um Livro\n");
+    if (totalLivros >= MAX_LIVROS) {  // Verifica se o limite de livros foi atingido
+        printf("Limite de livros atingido.\n");
+
+        return;
+    }
+
+    Livro novoLivro;  // Cria uma nova variável do tipo Livro
+
+    // Solicita ao usuário os dados do novo livro
+    printf("ID do livro: ");
+    scanf("%d", &novoLivro.id);
+    getchar();  // Consome o caractere de nova linha deixado pelo scanf
+    
+    printf("Titulo: ");
+    fgets(novoLivro.titulo, 100, stdin);
+    novoLivro.titulo[strcspn(novoLivro.titulo, "\n")] = '\0';  // Remove a quebra de linha
+    
+    printf("Autor: ");
+    fgets(novoLivro.autor, 100, stdin);
+    novoLivro.autor[strcspn(novoLivro.autor, "\n")] = '\0';  // Remove a quebra de linha
+    
+    printf("Data de publicacao (DD/MM/AAAA): ");
+    fgets(novoLivro.dataPublicacao, 11, stdin);
+    getchar();  // Consome a quebra de linha
+    
+    printf("Genero: ");
+    fgets(novoLivro.genero, 50, stdin);
+    novoLivro.genero[strcspn(novoLivro.genero, "\n")] = '\0';  // Remove a quebra de linha
+    
+    printf("Numero de copias: ");
+    scanf("%d", &novoLivro.numCopias);
+
+    livros[totalLivros++] = novoLivro;  // Adiciona o novo livro ao array e incrementa o contador
+    
+    salvarLivros();  // Salva os livros no arquivo
+    
+    printf("Livro criado com sucesso.\n");
 }
 
 // Função para listar todos os livros
@@ -92,6 +129,7 @@ void deletarLivro() {
 // Função principal
 int main() {
     carregarLivros();  // Carrega os livros do arquivo ao iniciar o programa
+    
     int opcao;
 
     // Loop do menu principal
