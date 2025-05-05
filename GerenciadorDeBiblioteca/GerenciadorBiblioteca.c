@@ -117,8 +117,21 @@ void listarLivros() {
 
 // Função para buscar um livro pelo ID
 void buscarLivro() {
-    // Criar a Lógica
-    printf("Função/Método de Buscar um Livro\n");
+    int id;
+
+    printf("Digite o ID do livro: ");
+    scanf("%d", &id);
+
+    // Percorre o array de livros para encontrar o livro com o ID especificado
+    for (int i = 0; i < totalLivros; i++) {
+        if (livros[i].id == id) {
+            // Exibe os detalhes do livro encontrado
+            printf("\nID: %d\nTitulo: %s\nAutor: %s\nData de Publicacao: %s\nGenero: %s\nCopias Disponiveis: %d\n", livros[i].id, livros[i].titulo, livros[i].autor, livros[i].dataPublicacao, livros[i].genero, livros[i].numCopias);
+            return;
+        }
+    }
+
+    printf("Livro não encontrado.\n");  // Se o livro não for encontrado, exibe uma mensagem
 }
 
 // Função para editar um livro existente
