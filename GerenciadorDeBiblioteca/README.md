@@ -46,16 +46,20 @@ Menu Principal (*Interface do sistema em execução*)
 
 Métodos do Programa:
 
-Criar/Listar
+Criar/Listar:
+
 ![alt text][criar]
 
-Buscar
+Buscar:
+
 ![alt text][buscar]
 
-Editar/Listar
+Editar/Listar:
+
 ![alt text][editar]
 
-Deletar/Listar
+Deletar/Listar:
+
 ![alt text][deletar]
 
 ## :open_file_folder: Como executar o projeto
