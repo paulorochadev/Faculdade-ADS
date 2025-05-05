@@ -93,8 +93,8 @@ Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
 [criar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Criar_Listar.png?raw=true
 [buscar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Buscar.png?raw=true
-[listar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Editar_Listar.png?raw=true
-[Deletar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Deletar_Listar.png?raw=true
+[editar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Editar_Listar.png?raw=true
+[deletar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Deletar_Listar.png?raw=true
 
 [c]: https://www.c-language.org/
 [gdb_online_site]: https://www.onlinegdb.com/
