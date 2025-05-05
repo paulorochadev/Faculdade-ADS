@@ -44,6 +44,20 @@ Menu Principal (*Interface do sistema em execução*)
 ![alt text][menu_image]
 ![alt text][menu_image2]
 
+Métodos do Programa:
+
+Criar/Listar
+![alt text][criar]
+
+Buscar
+![alt text][buscar]
+
+Editar/Listar
+![alt text][editar]
+
+Deletar/Listar
+![alt text][deletar]
+
 ## :open_file_folder: Como executar o projeto
 
 ```bash
@@ -76,6 +90,11 @@ Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
 [menu_image]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal.jpeg?raw=true
 [menu_image2]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/MenuPrincipal2.jpeg?raw=true
+
+[criar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Criar_Listar.jpeg?raw=true
+[buscar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Buscar.jpeg?raw=true
+[listar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Editar_Listar.jpeg?raw=true
+[Deletar]: https://github.com/paulorochadev/Faculdade-ADS/blob/main/GerenciadorDeBiblioteca/assets/Deletar_Listar.jpeg?raw=true
 
 [c]: https://www.c-language.org/
 [gdb_online_site]: https://www.onlinegdb.com/
