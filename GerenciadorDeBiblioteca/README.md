@@ -30,13 +30,12 @@ Sistema de gerenciamento de Livros com persistência em arquivo texto, desenvolv
 **Tratamento Básico de Erros**:
 - :white_check_mark: Validação de opções inválidas no menu
 
-### Em Desenvolvimento
 **CRUD Completo**:
-- :white_square_button: `criarLivro()` - Adiciona novos registros
-- :white_square_button: `listarLivros()` - Exibe todos registros cadastrados
-- :white_square_button: `buscarLivro()` - Localiza registro por ID
-- :white_square_button: `editarLivro()` - Modifica dados de registros existentes
-- :white_square_button: `deletarLivro()` - Remove registros
+- :white_check_mark: `criarLivro()` - Adiciona novos registros
+- :white_check_mark: `listarLivros()` - Exibe todos registros cadastrados
+- :white_check_mark: `buscarLivro()` - Localiza registro por ID
+- :white_check_mark: `editarLivro()` - Modifica dados de registros existentes
+- :white_check_mark: `deletarLivro()` - Remove registros
 
 ## :art: Layout
 
