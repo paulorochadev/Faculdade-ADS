@@ -104,8 +104,15 @@ void criarLivro() {
 
 // Função para listar todos os livros
 void listarLivros() {
-    // Criar a Lógica
-    printf("Função/Método de Listar Livros\n");
+    if (totalLivros == 0) {
+        printf("Nenhum livro cadastrado.\n");
+        return;
+    }
+
+    for (int i = 0; i < totalLivros; i++) {
+        // Exibe os detalhes de cada livro
+        printf("\nID: %d\nTitulo: %s\nAutor: %s\nData de Publicacao: %s\nGenero: %s\nCopias Disponiveis: %d\n", livros[i].id, livros[i].titulo, livros[i].autor, livros[i].dataPublicacao, livros[i].genero, livros[i].numCopias);
+    }
 }
 
 // Função para buscar um livro pelo ID
@@ -129,7 +136,7 @@ void deletarLivro() {
 // Função principal
 int main() {
     carregarLivros();  // Carrega os livros do arquivo ao iniciar o programa
-    
+
     int opcao;
 
     // Loop do menu principal
